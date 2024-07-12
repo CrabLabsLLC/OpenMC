@@ -1,0 +1,251 @@
+(footprint "DFN-6_1.3x1.2mm_P0.4mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "6-Lead Plastic DFN (1.3mm x 1.2mm) ")
+	(tags "DFN 0.4")
+	(property "Reference" "U12"
+		(at 0 -1.7 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "8a68c9dc-43e5-4b9c-85fa-82de3201e4cd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SN74LVC1G125DBV"
+		(at 0 1.5 180)
+		(layer "F.Fab")
+		(uuid "16e925c7-bbc4-44bd-beee-8ff11a971240")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Package_DFN_QFN:DFN-6_1.3x1.2mm_P0.4mm"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "28ed528f-418e-4fbf-9bac-3620978a3392")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74lvc1g125.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c4f7dec3-c986-460c-97d0-6a7dcf0807dd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS, SOT-23-5"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c6339ab5-23b2-4c33-ac9f-15414a8e37f4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.65 0.81)
+		(end 0.65 0.81)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8ae196f1-baaa-4e75-a24f-1348b58e4ec4")
+	)
+	(fp_line
+		(start -0.49 -0.81)
+		(end 0.65 -0.81)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c828a988-36aa-4903-88b5-a8dd25ab95cf")
+	)
+	(fp_poly
+		(pts
+			(xy -0.82 -0.73) (xy -1.1 -0.73) (xy -0.82 -1.01) (xy -0.82 -0.73)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "f57ccc1e-8aeb-49d8-8441-eb0f06ba0380")
+	)
+	(fp_line
+		(start -0.8 -0.7)
+		(end -0.8 0.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "98915d57-320c-41cc-a800-435643647b16")
+	)
+	(fp_line
+		(start -0.8 -0.7)
+		(end 0.8 -0.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1f2566ac-ad63-425c-9e16-81946805d2b1")
+	)
+	(fp_line
+		(start 0.8 0.75)
+		(end -0.8 0.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5b6c9f9e-f830-48f2-9dfe-c7cc9a2178ec")
+	)
+	(fp_line
+		(start 0.8 0.75)
+		(end 0.8 -0.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f2c073e1-e727-4d51-8d2d-71ff631af0ec")
+	)
+	(fp_line
+		(start -0.65 -0.125)
+		(end -0.65 0.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5920e77b-14ae-4e7a-9ad7-7e570e8b2926")
+	)
+	(fp_line
+		(start -0.65 0.7)
+		(end 0.65 0.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cf3f46b4-6865-46ec-8824-d77b1ab15750")
+	)
+	(fp_line
+		(start -0.1 -0.7)
+		(end -0.65 -0.125)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3589b260-79f2-4e71-8c71-e0e049908db0")
+	)
+	(fp_line
+		(start 0.65 -0.7)
+		(end -0.1 -0.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "de012801-f4f2-439c-b6a0-9b93aa54debb")
+	)
+	(fp_line
+		(start 0.65 0.7)
+		(end 0.65 -0.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "28b26a2e-ad28-479d-be59-45139553b246")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0.025 180)
+		(layer "F.Fab")
+		(uuid "296ff4bf-e7ed-4cd5-bafa-555e72e2f45b")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.368 -0.5)
+		(size 0.53 0.28)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "8046e3c7-6cef-4c1c-ba43-f1190f87f16b")
+	)
+	(pad "2" smd rect
+		(at -0.368 0)
+		(size 0.53 0.28)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "0d71b88c-a780-4990-b8be-5fd34dc41a49")
+	)
+	(pad "3" smd rect
+		(at -0.368 0.5)
+		(size 0.53 0.28)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "cd87c480-9509-4e38-929f-b26a738f5f5d")
+	)
+	(pad "4" smd rect
+		(at 0.368 0.5)
+		(size 0.53 0.28)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "a7a7c438-97b0-452d-94e1-e724a2e4e641")
+	)
+	(pad "5" smd rect
+		(at 0.368 0)
+		(size 0.53 0.28)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "baa19a37-76c9-43e6-9659-669c02fc81eb")
+	)
+	(pad "6" smd rect
+		(at 0.368 -0.5)
+		(size 0.53 0.28)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "9838a687-5858-4315-bf61-b7ada41d6b5c")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/DFN-6_1.3x1.2mm_P0.4mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
